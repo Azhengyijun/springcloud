@@ -19,7 +19,7 @@
       <module name="eurekaserver" target="1.8" />
       <module name="feign" target="1.8" />
       <module name="gateway" target="1.8" />
-      <module name="springcloud" target="1.8" />
+      <module name="springclouddemo" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
