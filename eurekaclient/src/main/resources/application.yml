@@ -7,3 +7,9 @@ server:
 spring:
   application:
     name: eurekaclient
+
+management:
+      endpoints:
+        web:
+          exposure:
+            include: refresh,health,info
