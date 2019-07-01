@@ -11,6 +11,11 @@ spring:
       discovery:
         locator:
           enabled: true
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
 #日志配置策略
 logging:
   level:

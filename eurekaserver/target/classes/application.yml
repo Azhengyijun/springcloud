@@ -10,6 +10,11 @@ spring:
       preferred-networks: 127.0.0.1
     client:
       ip-address: 127.0.0.1
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
 eureka:
   server:
    # 微服务节点连接超时时间
